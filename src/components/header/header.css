@@ -1,0 +1,41 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 34px 78px;
+  background-color: #ffffff;
+}
+
+.header__logo a {
+  font-size: 32px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  color: #000;
+  text-decoration: none;
+}
+
+.header__icons {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.header__icon {
+  width: 24px;
+  height: 24px;
+}
+
+@media screen and (max-width: 600px) {
+  .header {
+    padding: 16px 25px;
+  }
+
+  .header__logo a {
+    font-size: 25px;
+  }
+
+  .header__icon {
+    width: 24px;
+    height: 24px;
+  }
+}

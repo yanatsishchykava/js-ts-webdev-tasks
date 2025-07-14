@@ -1,0 +1,27 @@
+.category {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #F0EEED;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 64px;
+  font-weight: bold;
+  text-align: left;
+  text-decoration: none;
+  color: black;
+  width: 295px;
+  height: 298px;
+
+  word-break: break-word;
+  white-space: normal; 
+  line-height: 1.2;
+}
+
+@media screen and (max-width: 600px) {
+  .category {
+    width: 159px;
+    height: 169px;
+    font-size: 32px;
+  }
+}

@@ -1,0 +1,35 @@
+.brands {
+  background-color: #000;
+  padding: 50px 10px;
+  overflow: hidden;
+}
+
+.brands__container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.brands__logo {
+  max-height: 32px;
+}
+
+.brands__logo:hover {
+  opacity: 1;
+}
+
+@media screen and (max-width: 600px) {
+  .brands {
+    padding: 40px 16px;
+  }
+
+  .brands__container {
+    justify-content: center;
+    gap: 34px;
+  }
+
+  .brands__logo {
+    max-height: 24px;
+  }
+}
